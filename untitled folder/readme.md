@@ -59,6 +59,7 @@ Approach 2: Use activity or fragments as views and controller while Model will b
 In MVC architecture, application data is updated by the controller and View gets the data. Since the Model component is separated, it could be tested independently of the UI. Further, if the View layer respects the single responsibility principle then their role is just to update the Controller for every user event and just display data from the Model, without implementing any business logic. In this case, UI tests should be enough to cover the functionalities of the View.
 Controller and View will be handled by the Activity. Whenever the user clicks the buttons, activity directs the Model to handle further operations. The activity will act as an observer.
 The Model will be a separate class that contains the data to be displayed. The operations on the data will be performed by functions of this class and after updating the values of the data this Observable class notifies the Observer(Activity) about the change.
+
 Step 1: Create a new project
 1.	Click on File, then New => New Project.
 2.	Choose Empty activity
