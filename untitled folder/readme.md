@@ -50,7 +50,7 @@ MVC has No parameter to handle UI logic i.e., how to display the data.
 
 
 
-4- MVC for the project
+MVC for the project
 
 In spite of applying MVC schema to give a modular design to the application, code layers do depend on each other. In this pattern, View and Controller both depend upon the Model. Multiple approaches are possible to apply the MVC pattern in the project:
 Approach 1: Activities and fragments can perform the role of Controller and are responsible for updating the View.
